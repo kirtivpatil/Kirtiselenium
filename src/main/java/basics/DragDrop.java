@@ -17,7 +17,7 @@ public class DragDrop {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.globalsqa.com/demo-site/draganddrop/");
 		driver.manage().window().maximize();
-		Thread.sleep(5000);
+		Thread.sleep(7000);
 		//way1
 		WebElement iframeEle=driver.findElement(By.xpath("(//iframe)[4]"));
 		driver.switchTo().frame(iframeEle);
