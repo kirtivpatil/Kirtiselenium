@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-25T09:48:46 EDT" name="Default suite" finished-at="2022-05-25T09:48:46 EDT" duration-ms="76">
+  <suite started-at="2022-06-01T10:13:39 EDT" name="Default suite" finished-at="2022-06-01T10:14:34 EDT" duration-ms="55361">
     <groups>
     </groups>
-    <test started-at="2022-05-25T09:48:46 EDT" name="Default test" finished-at="2022-05-25T09:48:46 EDT" duration-ms="76">
-      <class name="learntestng.Launch">
-        <test-method signature="aorangeLaunch()[pri:0, instance:learntestng.Launch@4ef37659]" started-at="2022-05-25T09:48:46 EDT" name="aorangeLaunch" finished-at="2022-05-25T09:48:46 EDT" duration-ms="12" status="PASS">
+    <test started-at="2022-06-01T10:13:39 EDT" name="Default test" finished-at="2022-06-01T10:14:34 EDT" duration-ms="55361">
+      <class name="learnTestng2.TC_001_Hw_EditEmployee">
+        <test-method signature="addEmployee()[pri:0, instance:learnTestng2.TC_001_Hw_EditEmployee@5136d012]" started-at="2022-06-01T10:13:39 EDT" name="addEmployee" finished-at="2022-06-01T10:14:09 EDT" duration-ms="30158" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aorangeLaunch -->
-        <test-method signature="bguruLaunch()[pri:0, instance:learntestng.Launch@4ef37659]" started-at="2022-05-25T09:48:46 EDT" name="bguruLaunch" finished-at="2022-05-25T09:48:46 EDT" duration-ms="2" status="PASS">
+        </test-method> <!-- addEmployee -->
+        <test-method signature="EditEmployee()[pri:0, instance:learnTestng2.TC_001_Hw_EditEmployee@5136d012]" started-at="2022-06-01T10:14:09 EDT" name="EditEmployee" finished-at="2022-06-01T10:14:34 EDT" duration-ms="25077" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bguruLaunch -->
-        <test-method signature="cgoogleLaunch()[pri:0, instance:learntestng.Launch@4ef37659]" started-at="2022-05-25T09:48:46 EDT" name="cgoogleLaunch" finished-at="2022-05-25T09:48:46 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cgoogleLaunch -->
-      </class> <!-- learntestng.Launch -->
+        </test-method> <!-- EditEmployee -->
+      </class> <!-- learnTestng2.TC_001_Hw_EditEmployee -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
